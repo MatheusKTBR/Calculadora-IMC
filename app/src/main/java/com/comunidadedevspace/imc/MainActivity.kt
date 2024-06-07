@@ -1,8 +1,10 @@
 package com.comunidadedevspace.imc
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.activity.result.contract.ActivityResultContracts
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 
@@ -46,6 +48,16 @@ class MainActivity : AppCompatActivity() {
 
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
+
+                // Navegar para a proxima tela
+                // Criar o Layout da proxima tela
+                // Passar dados(resultado) para proxima tela
+
+                //intent - classe do proprio android
+
+                val intent = Intent(this, ResultActivity::class.java)
+                intent.putExtra(KEY_RESULT_IMC, resultado)
+                startActivity(intent)
 
                 println("Matheus programando " + resultado)
             }
