@@ -1,19 +1,32 @@
 # Calculadora IMC
-Desc
+Esse projeto é um aplicativo Android nativo desenvolvido com a linguagem de programação Kotlin, tem como objetivo fazer o calculo do IMC,
+mostrando o resultado em numeros e também mostrando se o resultado está a baixo, normal ou acima do desejado, como pode ver nas Screenshots  abaixo.
 
 ## :camera_flash: Screenshots
-<!-- You can add more screenshots here if you like -->
-Screenshots
+<img src="https://github.com/MatheusKTBR/Calculadora-IMC/assets/170836032/2975a10e-3720-4585-b17e-ffe40005c510" width=200/>
+<img src="https://github.com/MatheusKTBR/Calculadora-IMC/assets/170836032/9ef8d347-f7c9-4ff3-97db-c805ba3d5ce6" width=200/>
+<img src="https://github.com/MatheusKTBR/Calculadora-IMC/assets/170836032/dc240c6f-1397-4a5e-88e5-b502ffb032ee" width=200/>
 
 ## Tecnologias
-Techs
+- Activity
+- Intent
+- Snackbar
+- ViewsGroups
+  - LinearLayout
+  - ConstraintLayout
+  
+- Views
+  - ImageView
+  - TextView
+  - EditText
+  - Button
 
 
 ## License
 ```
 The MIT License (MIT)
 
-Copyright (c) 2023 Roque Buarque Junior
+Copyright (c) 2024 Matheus Victor Vieira Marques
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
